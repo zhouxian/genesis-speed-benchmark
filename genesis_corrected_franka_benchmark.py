@@ -33,7 +33,7 @@ plane = scene.add_entity(
 )
 
 franka = scene.add_entity(
-    gs.morphs.URDF(file="assets/urdf/franka_description/robots/franka_panda.urdf", fixed=True),
+    gs.morphs.MJCF(file="../assets/xml/franka_emika_panda/panda.xml"),
 )
 
 ########################## build ##########################
